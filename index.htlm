@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Thomas Henao</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        .container { width: 60%; margin: auto; background: white; padding: 20px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); }
+        header { text-align: center; padding: 20px; }
+        header img { width: 150px; border-radius: 50%; }
+        h2 { border-bottom: 2px solid #333; padding-bottom: 5px; }
+        ul { list-style: none; padding: 0; }
+        ul li { padding: 5px 0; }
+        .contacto a { text-decoration: none; color: #333; font-weight: bold; }
+        .contacto i { margin-right: 5px; }
+        .formulario { margin-top: 20px; }
+        .formulario input, .formulario textarea { width: 100%; padding: 10px; margin: 5px 0; }
+        .formulario button { background: #333; color: white; padding: 10px; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Thomas Henao</h1>
+            <img src="avatar.jpg" alt="Foto de Thomas">
+        </header>
+        
+        <section>
+            <h2>Datos Personales</h2>
+            <ul>
+                <li><strong>Fecha de nacimiento:</strong> 5 de agosto de 2006</li>
+                <li><strong>Ciudad y país:</strong> Moscú, Rusia</li>
+                <li><strong>Teléfono:</strong> 3158653429</li>
+                <li><strong>Correo:</strong> <i class="fa fa-envelope"></i> correo@ejemplo.com</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Perfil Profesional</h2>
+            <p>Apasionado por el deporte y la música, con habilidades en tenis, fútbol y piano. En constante aprendizaje y con metas claras en el desarrollo personal y académico.</p>
+        </section>
+        
+        <section>
+            <h2>Educación</h2>
+            <ul>
+                <li><strong>Institución:</strong> Colegio Moscú Montessori</li>
+                <li><strong>Años de estudio:</strong> 15</li>
+                <li><strong>Grado:</strong> Noveno - Estudios básicos</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Experiencia Laboral / Proyectos</h2>
+            <ul>
+                <li><strong>Proyecto 1:</strong> Organización de un torneo de tenis estudiantil (2023 - 2024)</li>
+                <li><strong>Proyecto 2:</strong> Participación en una banda escolar como pianista principal (2022 - 2023)</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Deportes: Tenis, Fútbol</li>
+                <li>Música: Piano</li>
+                <li>Cualidades: Trabajo en equipo, Creatividad</li>
+            </ul>
+        </section>
+        
+        <section class="contacto">
+            <h2>Contacto</h2>
+            <form class="formulario">
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Correo" required>
+                <textarea placeholder="Mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <p><a href="#"><i class="fa fa-download"></i> Descargar CV</a></p>
+        </section>
+    </div>
+</body>
+</html>
